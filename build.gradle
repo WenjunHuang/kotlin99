@@ -23,4 +23,5 @@ repositories {
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
     compile "junit:junit:4.12"
+    compile "com.natpryce:hamkrest:1.2.1.0"
 }
