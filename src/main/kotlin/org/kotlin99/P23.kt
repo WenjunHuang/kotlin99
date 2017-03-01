@@ -1,7 +1,7 @@
 package org.kotlin99
 
-import com.natpryce.hamkrest.assertion.assertThat
-import com.natpryce.hamkrest.equalTo
+import org.hamcrest.CoreMatchers.equalTo
+import org.hamcrest.MatcherAssert.assertThat
 import org.junit.Test
 import java.util.*
 
@@ -9,7 +9,7 @@ import java.util.*
  * Created by Wenjun on 2017/2/22.
  */
 
-fun<T> randomSelect(count: Int, list: List<T>, random: Random = Random()): List<T> =
+fun <T> randomSelect(count: Int, list: List<T>, random: Random = Random()): List<T> =
         if (count == 0) emptyList()
         else {
             val value = list[random.nextInt(list.size)]

@@ -1,7 +1,7 @@
 package org.kotlin99
 
-import com.natpryce.hamkrest.assertion.assertThat
-import com.natpryce.hamkrest.equalTo
+import org.hamcrest.CoreMatchers.equalTo
+import org.hamcrest.MatcherAssert.assertThat
 import org.junit.Test
 import java.util.*
 
@@ -9,7 +9,8 @@ import java.util.*
  * Created by Wenjun on 2017/2/22.
  */
 
-fun randomPermute(list:List<Char>, random:Random = Random()) : List<Char> = randomSelect(list.size, list, random)
+fun randomPermute(list: List<Char>, random: Random = Random()): List<Char> = randomSelect(list.size, list, random)
+
 class P25Test {
     @Test
     fun `generate a random permutation of the elements of a list`() {

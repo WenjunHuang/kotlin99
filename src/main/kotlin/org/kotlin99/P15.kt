@@ -22,15 +22,15 @@ class P15Test {
     }
 
     @Test
-    fun duplicateNIsZero_ReturnEmptyList () {
+    fun duplicateNIsZero_ReturnEmptyList() {
         assertEquals(emptyList<Char>(), duplicate(0, "ab".toList()))
     }
 
     @Test
-    fun duplicateMultipleTimesWithNonEmptyList_ReturnExpected () {
-        assertEquals(listOf('a','a','a','d','d','d','c','c','c','c','c','c'),
+    fun duplicateMultipleTimesWithNonEmptyList_ReturnExpected() {
+        assertEquals(listOf('a', 'a', 'a', 'd', 'd', 'd', 'c', 'c', 'c', 'c', 'c', 'c'),
                 duplicate(3, "adcc".toList()))
-        
+
     }
 
 }
