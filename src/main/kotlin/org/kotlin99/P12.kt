@@ -2,7 +2,6 @@ package org.kotlin99
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
-import java.util.*
 
 /**
  * Created by rick on 2017/2/20.
