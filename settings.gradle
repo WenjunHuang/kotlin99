@@ -1,2 +1,3 @@
 rootProject.name = 'kotlin99'
+rootProject.buildFileName = 'build.gradle.kts'
 
