@@ -15,7 +15,7 @@ class P16Spec extends FlatSpec with Matchers {
     }
 
     it should "drop every 3th element from a list" in {
-        P15.drop(3, fixture.list) should contain theSameElementsInOrderAs (fixture.result)
+        P16.drop(3, fixture.list) should contain theSameElementsInOrderAs (fixture.result)
     }
 }
 
