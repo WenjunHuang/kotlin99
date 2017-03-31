@@ -16,10 +16,6 @@ buildscript {
     }
 }
 
-plugins {
-    application
-}
-
 apply {
     plugin("java")
     plugin("kotlin")
