@@ -1,8 +1,6 @@
-version = "1.0-snapshot"
-
-
 buildscript {
-    var kotlinVersion:String by project.extra
+
+    var kotlinVersion:String by extra
     kotlinVersion = "1.1.0"
 
     repositories {
@@ -46,6 +44,7 @@ dependencies {
     // scala
     compile("org.scala-lang:scala-library:2.12.1")
     compile("org.scala-lang:scala-compiler:2.12.1")
+    compile("org.scala-lang:scala-reflect:2.12.1")
     compile("org.scalactic:scalactic_2.12:3.0.1")
     compile("org.scalatest:scalatest_2.12:3.0.1")
 
