@@ -16,11 +16,4 @@ object P02 {
         case _ => throw new NoSuchElementException
     }
 }
-class P02Spec extends FlatSpec with Matchers {
-    "last but one with builtin" should "return correctly" in {
-        P02.penultimateBuiltin(List(1,1,2,3,5,5)) should be(5)
-    }
-    "last but one with recursive" should "return correctly" in {
-        P02.penultimateRecursive(List(1,1,2,3,5,5)) should be(5)
-    }
-}
+
