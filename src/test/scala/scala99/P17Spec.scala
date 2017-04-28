@@ -16,9 +16,4 @@ class P17Spec extends FlatSpec with Matchers {
     }
 }
 
-object P17 {
-    def split[T](n: Int, list: List[T]) = {
-        list.splitAt(n)
-    }
 
-}
