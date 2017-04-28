@@ -1,7 +1,5 @@
 package scala99
 
-import org.scalatest.{FlatSpec, Matchers}
-
 import scala.collection.mutable
 
 /**
