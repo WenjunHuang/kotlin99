@@ -19,7 +19,4 @@ class P18Spec extends FlatSpec with Matchers {
     }
 }
 
-object P18 {
-    def slice[T](start: Int, end: Int, source: List[T]): List[T] = source.slice(start, end)
 
-}
